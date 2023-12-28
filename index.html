@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Melodies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="melodies icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="melodies icon.png" class="rounded-circle" alt="logo" style="width: 35px; height: 35px;"> My Melodies</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Songs ....." aria-label="Search">         <!-- me-auto -> takes the remaining width -->
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                  </form>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="login.html" target="_blank" style="padding: 0em 1em;"><i class="fa-regular fa-address-book"></i> Manage Subscription</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html" target="_blank" style="padding: 0em 1em;"><i class="fa-regular fa-user"></i> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#" style="padding: 0em 1em;">All</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Trending Now</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Old Songs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Moods & Genre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Top Albums</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Top Charts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Top Artists</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Top Playlists</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Favorites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Podcast</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">Radio</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+                <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            </div>
+    
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="animal corousel.webp" alt="animal" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                <img src="sam bahadur corousel.webp" alt="sam bahadur" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                <img src="Abrar-s-Entry-Jamal-Kudu corousel new.jpg" alt="abrar's entry" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                <img src="dunki carousel.jpg" alt="abrar's entry" class="d-block" style="width:100%">
+                </div>
+            </div>
+    
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="main">
+            <div class="container-fluid">
+                <h4>Trending Now  <i class="fa-solid fa-circle-chevron-right"></i></h4>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="animal.jpg" alt="">
+                <h2>Arjan Vailly </h2>
+                <audio src="Songs/Arjan Vailly - Animal_320-(PagalWorld.Com.IN).mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="sam bahadur.jpg" alt="">
+                <h2>Badhte Chalo</h2>
+                <audio src="Songs/04. Badhte Chalo.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Dunki.jpg" alt="">
+                <h2>O Maahi</h2>
+                <audio src="Songs/O Maahi - Dunki.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Abrar-s-Entry-Jamal-Kudu.jpg" alt="">
+                <h2>Jamal Kudu</h2>
+                <audio src="Songs/Abrars Entry Jamal Kudu - ANIMAL.mp3" controls></audio>
+            </div>
+
+
+            <div class="container-fluid">
+                <h4>New Releases <i class="fa-solid fa-circle-chevron-right"></i></h4>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="ranbir entry bgm.jpg" alt="">
+                <h2>Roja BGM</h2>
+                <audio src="Songs/Animal-Ranbir-Kapoor-Entry_320(PaglaSongs).mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="the archies.jpg" alt="">
+                <h2>The Archies</h2>
+                <audio src="Songs/01 - Sunoh (320 Kbps).mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Pehla-Pehla-From-Hi-Papa.jpg" alt="">
+                <h2>Pehla Pehla</h2>
+                <audio src="Songs/Pehla Pehla Hi Papa 320 Kbps.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Tiger-3.jpg" alt="">
+                <h2>Leke Prabhu Ka Naam</h2>
+                <audio src="Songs/Leke Prabhu Ka Naam - Tiger 3.mp3" controls></audio>
+            </div>
+
+
+            <div class="container-fluid">
+                <h4>90's Hits <i class="fa-solid fa-circle-chevron-right"></i></h4>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Dil se.webp" alt="">
+                <h2>Chaiyya Chaiyya</h2>
+                <audio src="Songs/03. Chaiyan Chaiyan.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="dil hai ke.webp" alt="">
+                <h2>Dil Hai Ke Manta Nahi</h2>
+                <audio src="Songs/01. Dil Hai Ke Maanta Nahi.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="ek ladki ko dekha.webp" alt="">
+                <h2>Ek Ladki Ko Dekha</h2>
+                <audio src="Songs/01. Ek Ladki Ko Dekha.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="dheere dheere se meri.webp" alt="">
+                <h2>Dheere Dheere Se</h2>
+                <audio src="Songs/05 Dheere Dhheere Se Meri Zindagi - Aashiqui 320Kbps.mp3" controls></audio>
+            </div>
+
+            <div class="container-fluid">
+                <h4>Tamil Forever Hits <i class="fa-solid fa-circle-chevron-right"></i></h4>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="anbe anbe.jpg" alt="">
+                <h2>Anbe Anbe</h2>
+                <audio src="Songs/Anbe-Anbe.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="kaatre en vaasal.jpg" alt="">
+                <h2>Kaatre En Vaasal</h2>
+                <audio src="Songs/Kaattrae-En-Vaasal.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="enakke enakka2.jpg" alt="">
+                <h2>Enakke Enakka</h2>
+                <audio src="Songs/Ennake-Ennaka.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="enna solla pogirai.webp" alt="">
+                <h2>Enna Solla Pogirai</h2>
+                <audio src="Songs/Enna-Solla-Pogirai.mp3" controls></audio>
+            </div>
+
+            <div class="container-fluid">
+                <h4>Telugu Hits <i class="fa-solid fa-circle-chevron-right"></i></h4>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Pushpa - The Rise .webp" alt="">
+                <h2>Srivalli</h2>
+                <audio src="Songs/Srivalli-MassTamilan.fm.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="allasani vaari.webp" alt="">
+                <h2>Allasani Vaari</h2>
+                <audio src="Songs/Allasani Vaari - SenSongsMp3.Co.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="kallalo.webp" alt="">
+                <h2>Kallalo</h2>
+                <audio src="Songs/Kalallo-MassTamilan.dev.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="Ninna chusi.jpg" alt="">
+                <h2>Ninna Chusi</h2>
+                <audio src="Songs/Happy Days Video Songs _ Ninna Chusi Video Song _ Varun Sandesh, Tamannah _ .m4a" controls></audio>
+            </div>
+
+            <div class="container-fluid">
+                <h4>Malayalam Magic <i class="fa-solid fa-circle-chevron-right"></i></h4>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="darshana.webp" alt="">
+                <h2>Darshana</h2>
+                <audio src="Songs/Darshana(PagalWorld).mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="manavallum thug.webp" alt="">
+                <h2>Manavaalan Thug</h2>
+                <audio src="Songs/Manavalan-Thug.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="neela nilave.webp" alt="">
+                <h2>Neela Nilave</h2>
+                <audio src="Songs/Neela-Nilave.mp3" controls></audio>
+            </div>
+            <div class="audio audio1 dark">
+                <img src="ollulleru.webp" alt="">
+                <h2>Ollulleru</h2>
+                <audio src="Songs/Ollulleru(PaglaSongs).mp3" controls></audio>
+            </div>
+
+
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">ABOUT US |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">PRIVACY POLICY |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">TERMS OF USE |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">CONTACT US |</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="padding: 0em 1em;">HELLOTUNES</a></li>  
+                </ul>
+                <ul class="navbar-nav">
+                    <span>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="fa-brands fa-youtube"></i></a></li>
+                </span>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="footer2">
+               <h6 style="color: rgb(130, 129, 129); font-size: smaller;">My Melodies is the one-stop music page for the latest to the greatest songs that you love. 
+                  Play your favourite music online for free or download mp3. 
+                  Enjoy from over 22 Million Hindi, English, Bollywood, Regional, Latest, Old songs and more.
+               </h6>
+               <h6 class="ndl" style="color: rgb(130, 129, 129); font-size: smaller;">2023 &copy; All rights reserved | Neeraj Digital Limited</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

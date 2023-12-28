@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(#131614, #000000);
+    background-repeat: no-repeat;
+}
+
+#demo {
+    margin-top: 10px;
+}
+.main {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0em;
+    color: white;
+}
+
+.audio {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+    background-color: #272727;
+    color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    flex: 1 1 250px;
+    margin: 1em;
+    border-radius: 5px;
+}
+.audio:hover {
+    transform: scale(1.1);
+}
+
+.audio img {
+    width: 200px;
+    height: 200px;
+    margin: 0.5em;
+}
+
+.audio h2 {
+    font-weight: 500;
+    font-size: medium;
+    margin: 0.5em;
+}
+
+.footer2 {
+    display: flex;
+    margin-top: 5px;
+}
+
+.footer2 h6.ndl {
+    margin-left: 200px;
+}
+span {
+    display: flex;
+    font-size: larger;
+}
+
+audio {
+    width: 160px;
+    height: 20px;
+}

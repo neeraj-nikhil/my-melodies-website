@@ -1,0 +1,12 @@
+body {
+    background-image: url("login\ background\ img.jpg");
+}
+
+#formbox {
+    background-color: rgba(92, 92, 102, 0.8);
+}
+
+::placeholder {
+    font-size: 15px;
+    text-transform: lowercase;
+}
